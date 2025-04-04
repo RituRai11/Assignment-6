@@ -1,4 +1,6 @@
+"""Module for Fibonacci iterable class."""
 class Fibonacci:
+    """An iterable class that generates the Fibonacci sequence up to n terms."""
     def __init__(self, n):
         if not isinstance(n, int):
             raise ValueError("Input must be an integer")
